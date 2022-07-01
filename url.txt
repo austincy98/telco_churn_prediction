@@ -1,0 +1,9 @@
+URL Frontend: https://austin-frontend-m1p2.herokuapp.com/
+URL Backend:https://austin-deployment-backend-p2m1.herokuapp.com/
+
+pada notebook saya tambahkan code seperti berikut untuk menyimpan pipeline preprocessing:
+
+import pickle
+
+with open('preprocessing.pkl', 'wb') as pipe_preprocessing:
+    pickle.dump(pipe_pre, pipe_preprocessing)
